@@ -1,5 +1,5 @@
 SKIPUNZIP=1
-
+JSON_FILE="phone.json"
 if [[ "$KSU" == "true" ]]; then
   ui_print "- KernelSU 用户空间版本号: $KSU_VER_CODE"
   ui_print "- KernelSU 内核空间版本号: $KSU_KERNEL_VER_CODE"
@@ -29,10 +29,10 @@ mkdir -p "$TMPDIR"
 unzip -oj "$ZIPFILE" \
   module.prop \
   post-fs-data.sh \
-  sota.json \
+  "$JSON_FILE" \
   -d "$MODPATH" >/dev/null 2>&1
 
-new_xms_version="$(jq -r '.sota_version' "$MODPATH/sota.json")"
+new_xms_version="$(jq -r '.sota_version' "$MODPATH/$JSON_FILE")"
 ui_print "*********************"
 ui_print "- 正在更新 SOTA 版本至 $new_xms_version"
 {
@@ -47,12 +47,17 @@ jq -r '
     .versionCode,
     .fileName,
     .md5,
-    .downloadUrls
+    .downloadUrls[0]
 ]
 | @tsv
-' "$MODPATH/sota.json" |
+' "$MODPATH/$JSON_FILE" |
   while IFS=$'\t' read -r \
     packageName versionCode fileName md5 downloadUrls; do
+
+    # 提取路径部分（去掉协议+域名 和 查询参数），拼接阿里云 OSS 域名
+    url_path="${downloadUrls#*//*/}"    # 去掉 https://任意域名/
+    url_path="${url_path%%\?*}"          # 去掉 ?t=...&s=...
+    downloadUrls="https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/${url_path}"
 
     apk_path="$(pm path "$packageName" 2>/dev/null)"
     apk_path="${apk_path#package:}"
@@ -101,7 +106,7 @@ jq -r '
     ui_print "*********************"
   done
 
-rm -rf "$TMPDIR" "$MODPATH/sota.json"
+rm -rf "$TMPDIR" "$MODPATH/$JSON_FILE"
 
 settings put secure xota_update 1
 settings put secure xota_version "$new_xms_version"

@@ -2,7 +2,12 @@ name: release
 on:
   push:
     branches:
-      - main
+      - phone
+      - tablet
+      - fold
+    paths-ignore:
+      - '**/*.yaml'
+      - '**/*.yml'
   workflow_dispatch:
 jobs:
   build:
@@ -20,11 +25,11 @@ jobs:
           echo "version=$version" >>$GITHUB_WORKSPACE/$ModuleFolderName/module.prop
           echo "versionCode=$versionCode" >>$GITHUB_WORKSPACE/$ModuleFolderName/module.prop
           cd $GITHUB_WORKSPACE/$ModuleFolderName
-          zip -q -r "${ModuleFolderName}_${version}.zip" *
-          mv $GITHUB_WORKSPACE/$ModuleFolderName/"${ModuleFolderName}_${version}.zip" "$GITHUB_WORKSPACE"/GithubRelease
+          zip -q -r "${ModuleFolderName}_${version}_${{ github.ref_name }}.zip" *
+          mv $GITHUB_WORKSPACE/$ModuleFolderName/"${ModuleFolderName}_${version}_${{ github.ref_name }}.zip" "$GITHUB_WORKSPACE"/GithubRelease
           cd "$GITHUB_WORKSPACE"
           touch file.md
-          echo "${ModuleFolderName}_${version}.zip" > file.md
+          echo "${ModuleFolderName}_${version}_${{ github.ref_name }}.zip" > file.md
       - name: 3.上传到Github Release
         uses: ncipollo/release-action@v1.21.0
         with:
@@ -45,8 +50,8 @@ jobs:
             curl -L \
               -H "Accept: application/vnd.github+json" \
               -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
-              -H "X-GitHub-Api-Version: 2022-11-28" \
-              "https://api.github.com/repos/zjw2017/Xiaomi-SOTA-Module/releases/tags/$version" | jq -r .assets[].browser_download_url | cut -d'"' -f2
+              -H "X-GitHub-Api-Version: 2026-03-10" \
+              "https://api.github.com/repos/zjw2017/Xiaomi-SOTA-Module/releases/tags/$version" | jq -r '.assets[].browser_download_url' | grep '_${{ github.ref_name }}\.zip'
           )
           sed -i '3a "zipUrl": "'"$browser_download_url"'",' $GITHUB_WORKSPACE/update.json
           jq . $GITHUB_WORKSPACE/update.json > $GITHUB_WORKSPACE/new.json

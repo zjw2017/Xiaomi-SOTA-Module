@@ -2,4 +2,4 @@ id=Xiaomi-SOTA-Module
 name=Xiaomi SOTA Module
 author=柚稚
 description=存放用于 Xiaomi SOTA 所需要的文件
-updateJson=https://raw.githubusercontent.com/zjw2017/Xiaomi-SOTA-Module/refs/heads/main/update.json
+updateJson=https://raw.githubusercontent.com/zjw2017/Xiaomi-SOTA-Module/refs/heads/phone/update.json

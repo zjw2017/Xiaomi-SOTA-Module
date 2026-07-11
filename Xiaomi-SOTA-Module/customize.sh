@@ -54,9 +54,8 @@ jq -r '
   while IFS=$'\t' read -r \
     packageName versionCode fileName md5 downloadUrls; do
 
-    # 提取路径部分（去掉协议+域名 和 查询参数），拼接阿里云 OSS 域名
-    url_path="${downloadUrls#*//*/}"    # 去掉 https://任意域名/
-    url_path="${url_path%%\?*}"          # 去掉 ?t=...&s=...
+    url_path="${downloadUrls#*//*/}"
+    url_path="${url_path%%\?*}"
     downloadUrls="https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/${url_path}"
 
     apk_path="$(pm path "$packageName" 2>/dev/null)"

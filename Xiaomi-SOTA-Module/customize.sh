@@ -35,10 +35,7 @@ unzip -oj "$ZIPFILE" \
 new_xms_version="$(jq -r '.sota_version' "$MODPATH/$JSON_FILE")"
 ui_print "*********************"
 ui_print "- 正在更新 SOTA 版本至 $new_xms_version"
-{
-  echo "version=$new_xms_version"
-  echo "description=更新 SOTA 版本至 $new_xms_version"
-} >>"$MODPATH/module.prop"
+echo "description=更新 SOTA 版本至 $new_xms_version" >>"$MODPATH/module.prop"
 
 jq -r '
 .apps[]

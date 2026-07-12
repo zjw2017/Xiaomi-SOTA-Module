@@ -18,23 +18,22 @@ jobs:
         run: |
           echo "version=$(jq -r .version $GITHUB_WORKSPACE/update.json)" >> $GITHUB_ENV
           echo "versionCode=$(jq -r .versionCode $GITHUB_WORKSPACE/update.json)" >> $GITHUB_ENV
-          echo "ModuleFolderName=Xiaomi-SOTA-Module" >> $GITHUB_ENV
       - name: 2. 制作模块
         run: |
           mkdir -p "$GITHUB_WORKSPACE"/GithubRelease
-          echo "version=$version" >>$GITHUB_WORKSPACE/$ModuleFolderName/module.prop
-          echo "versionCode=$versionCode" >>$GITHUB_WORKSPACE/$ModuleFolderName/module.prop
-          cd $GITHUB_WORKSPACE/$ModuleFolderName
-          zip -q -r "${ModuleFolderName}_${version}_${{ github.ref_name }}.zip" *
-          mv $GITHUB_WORKSPACE/$ModuleFolderName/"${ModuleFolderName}_${version}_${{ github.ref_name }}.zip" "$GITHUB_WORKSPACE"/GithubRelease
+          echo "version=$version" >>$GITHUB_WORKSPACE/Xiaomi-SOTA-Module/module.prop
+          echo "versionCode=$versionCode" >>$GITHUB_WORKSPACE/Xiaomi-SOTA-Module/module.prop
+          cd $GITHUB_WORKSPACE/Xiaomi-SOTA-Module
+          zip -q -r "Xiaomi SOTA Module_${version}_${{ github.ref_name }}.zip" *
+          mv $GITHUB_WORKSPACE/Xiaomi-SOTA-Module/"Xiaomi SOTA Module_${version}_${{ github.ref_name }}.zip" "$GITHUB_WORKSPACE"/GithubRelease
           cd "$GITHUB_WORKSPACE"
           touch file.md
-          echo "${ModuleFolderName}_${version}_${{ github.ref_name }}.zip" > file.md
+          echo "Xiaomi SOTA Module_${version}_${{ github.ref_name }}.zip" > file.md
       - name: 3.上传到Github Release
         uses: ncipollo/release-action@v1.21.0
         with:
           artifacts: ${{ github.workspace }}/GithubRelease/*
-          name: "${{ env.ModuleFolderName }} ${{ env.version }}"
+          name: "Xiaomi SOTA Module ${{ env.version }}"
           tag: "${{ env.version }}"
           bodyFile: "${{ github.workspace }}/file.md"
           allowUpdates: true

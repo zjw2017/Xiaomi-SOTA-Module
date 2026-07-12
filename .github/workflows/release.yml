@@ -22,7 +22,7 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE"/GithubRelease
           echo "version=$version" >>$GITHUB_WORKSPACE/Xiaomi_SOTA_Module/module.prop
           echo "versionCode=$versionCode" >>$GITHUB_WORKSPACE/Xiaomi_SOTA_Module/module.prop
-          mv $GITHUB_WORKSPACE/Phone.json $GITHUB_WORKSPACE/Xiaomi_SOTA_Module
+          mv $GITHUB_WORKSPACE/${{ github.ref_name }}.json $GITHUB_WORKSPACE/Xiaomi_SOTA_Module
           cd $GITHUB_WORKSPACE/Xiaomi_SOTA_Module
           zip -q -r "Xiaomi-SOTA-Module_${version}_${{ github.ref_name }}.zip" *
           mv $GITHUB_WORKSPACE/Xiaomi_SOTA_Module/"Xiaomi-SOTA-Module_${version}_${{ github.ref_name }}.zip" "$GITHUB_WORKSPACE"/GithubRelease

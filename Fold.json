@@ -1,16 +1,16 @@
 {
-    "sota_version": "C10",
+    "sota_version": "C11",
     "apps": [
         {
             "name": "【MIAI 引擎】OS3.1",
             "packageName": "com.xiaomi.aicr",
-            "versionCode": "2030031802",
-            "fileName": "aicr-3.18.2-universal-c86468598f.apk",
-            "fileSize": "61613623",
-            "md5": "c86468598fed53d177e6698f0436f2fe",
+            "versionCode": "2030036203",
+            "fileName": "aicr-3.62.3-universal-5c1b44827a.apk",
+            "fileSize": "62127243",
+            "md5": "5c1b44827a6212bae8694eff9d1fb93b",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/xiaomi/aicr/aicr/3.18.2/aicr-3.18.2-universal-c86468598f.apk?t=1783747284&s=7c535bed5778cddae80c8b1628e61570",
-                "https://superota.d.miui.com/xms/com/xiaomi/aicr/aicr/3.18.2/aicr-3.18.2-universal-c86468598f.apk?t=1783747284&s=7c535bed5778cddae80c8b1628e61570"
+                "https://ultimateota.d.miui.com/xms/com/xiaomi/aicr/aicr/3.62.3/aicr-3.62.3-universal-5c1b44827a.apk?t=1785238884&s=850f11bbd761306ddc4f2bac08b67ee4",
+                "https://superota.d.miui.com/xms/com/xiaomi/aicr/aicr/3.62.3/aicr-3.62.3-universal-5c1b44827a.apk?t=1785238884&s=850f11bbd761306ddc4f2bac08b67ee4"
             ]
         },
         {
@@ -21,56 +21,56 @@
             "fileSize": "10022416",
             "md5": "c8d245b1e985667133c44b165d1dc660",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/xiaomi/aiservice/aiservice/3.12.2_cn/aiservice-3.12.2_cn-universal-c8d245b1e9.apk?t=1783747284&s=3851508b83e107dc297715dfa513757a",
-                "https://superota.d.miui.com/xms/com/xiaomi/aiservice/aiservice/3.12.2_cn/aiservice-3.12.2_cn-universal-c8d245b1e9.apk?t=1783747284&s=3851508b83e107dc297715dfa513757a"
+                "https://ultimateota.d.miui.com/xms/com/xiaomi/aiservice/aiservice/3.12.2_cn/aiservice-3.12.2_cn-universal-c8d245b1e9.apk?t=1785238884&s=5bc87ea5168373d8cfe8f6f28b07a430",
+                "https://superota.d.miui.com/xms/com/xiaomi/aiservice/aiservice/3.12.2_cn/aiservice-3.12.2_cn-universal-c8d245b1e9.apk?t=1785238884&s=5bc87ea5168373d8cfe8f6f28b07a430"
             ]
         },
         {
             "name": "备份-国内-OS3",
             "packageName": "com.miui.backup",
-            "versionCode": "7107",
-            "fileName": "backup-7107-CN-OS3-universal-c42b68764b.apk",
-            "fileSize": "18197532",
-            "md5": "c42b68764bf784bc66e83d421e9a1770",
+            "versionCode": "7121",
+            "fileName": "backup-7121-CN-OS3-universal-e8e261378b.apk",
+            "fileSize": "18263124",
+            "md5": "e8e261378b406781b8bc4f61cf2e959c",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/backup/backup/7107-CN-OS3/backup-7107-CN-OS3-universal-c42b68764b.apk?t=1783747284&s=0c9517ede14f9dbccdc39e18586c9196",
-                "https://superota.d.miui.com/xms/com/miui/backup/backup/7107-CN-OS3/backup-7107-CN-OS3-universal-c42b68764b.apk?t=1783747284&s=0c9517ede14f9dbccdc39e18586c9196"
+                "https://ultimateota.d.miui.com/xms/com/miui/backup/backup/7121-CN-OS3/backup-7121-CN-OS3-universal-e8e261378b.apk?t=1785238884&s=8174391a789e8b4953850b4bcb94fc59",
+                "https://superota.d.miui.com/xms/com/miui/backup/backup/7121-CN-OS3/backup-7121-CN-OS3-universal-e8e261378b.apk?t=1785238884&s=8174391a789e8b4953850b4bcb94fc59"
             ]
         },
         {
             "name": "相册-国内-OS3",
             "packageName": "com.miui.gallery",
-            "versionCode": "4030113",
-            "fileName": "cn-4.3.1.13-cn-universal-aa9ff5b9ee.apk",
-            "fileSize": "89555344",
-            "md5": "aa9ff5b9eed8a7aa9140a4fc739c0269",
+            "versionCode": "4030116",
+            "fileName": "cn-4.3.1.16-cn-universal-1d35f02697.apk",
+            "fileSize": "89563536",
+            "md5": "1d35f02697aef52abab0a1515efe8a23",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/gallery/cn/4.3.1.13-cn/cn-4.3.1.13-cn-universal-aa9ff5b9ee.apk?t=1783747284&s=542189ff2e400cc868148dcb54a98c02",
-                "https://superota.d.miui.com/xms/com/miui/gallery/cn/4.3.1.13-cn/cn-4.3.1.13-cn-universal-aa9ff5b9ee.apk?t=1783747284&s=542189ff2e400cc868148dcb54a98c02"
+                "https://ultimateota.d.miui.com/xms/com/miui/gallery/cn/4.3.1.16-cn/cn-4.3.1.16-cn-universal-1d35f02697.apk?t=1785238884&s=e028ca013158b976245222c6d3ade57a",
+                "https://superota.d.miui.com/xms/com/miui/gallery/cn/4.3.1.16-cn/cn-4.3.1.16-cn-universal-1d35f02697.apk?t=1785238884&s=e028ca013158b976245222c6d3ade57a"
             ]
         },
         {
             "name": "小米换机-国内-OS3",
             "packageName": "com.miui.huanji",
-            "versionCode": "45702",
-            "fileName": "huanji-4572-OS3-CN-universal-5113322643.apk",
-            "fileSize": "36822356",
-            "md5": "5113322643dccf2960d3795ee8a32099",
+            "versionCode": "45705",
+            "fileName": "huanji-4575-OS3-CN-universal-6abce66008.apk",
+            "fileSize": "36846932",
+            "md5": "6abce66008c03325afa9eba9b14cfef0",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/huanji/huanji/4572-OS3-CN/huanji-4572-OS3-CN-universal-5113322643.apk?t=1783747284&s=9254aebf9ba9b5694e95440662554657",
-                "https://superota.d.miui.com/xms/com/miui/huanji/huanji/4572-OS3-CN/huanji-4572-OS3-CN-universal-5113322643.apk?t=1783747284&s=9254aebf9ba9b5694e95440662554657"
+                "https://ultimateota.d.miui.com/xms/com/miui/huanji/huanji/4575-OS3-CN/huanji-4575-OS3-CN-universal-6abce66008.apk?t=1785238884&s=d87d24c49872ab211ed371199fe6c4c1",
+                "https://superota.d.miui.com/xms/com/miui/huanji/huanji/4575-OS3-CN/huanji-4575-OS3-CN-universal-6abce66008.apk?t=1785238884&s=d87d24c49872ab211ed371199fe6c4c1"
             ]
         },
         {
             "name": "录音机-HyperOS3-国内",
             "packageName": "com.android.soundrecorder",
-            "versionCode": "708096",
-            "fileName": "soundrecorder-7.8.9.6.2026061318-universal-9baeccc37a.apk",
-            "fileSize": "23398750",
-            "md5": "9baeccc37a38bc9bc9f5aa2da7756fbd",
+            "versionCode": "708099",
+            "fileName": "soundrecorder-7.8.9.9.2026071018-universal-61a2cb709b.apk",
+            "fileSize": "23402846",
+            "md5": "61a2cb709b946b902b3deee42505b5ab",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/soundrecorder/soundrecorder/7.8.9.6.2026061318/soundrecorder-7.8.9.6.2026061318-universal-9baeccc37a.apk?t=1783747284&s=b5779390f0f9aaaba9f48125144d4524",
-                "https://superota.d.miui.com/xms/com/android/soundrecorder/soundrecorder/7.8.9.6.2026061318/soundrecorder-7.8.9.6.2026061318-universal-9baeccc37a.apk?t=1783747284&s=b5779390f0f9aaaba9f48125144d4524"
+                "https://ultimateota.d.miui.com/xms/com/android/soundrecorder/soundrecorder/7.8.9.9.2026071018/soundrecorder-7.8.9.9.2026071018-universal-61a2cb709b.apk?t=1785238884&s=ac824c7de1e37e1cea624ef679ffbee2",
+                "https://superota.d.miui.com/xms/com/android/soundrecorder/soundrecorder/7.8.9.9.2026071018/soundrecorder-7.8.9.9.2026071018-universal-61a2cb709b.apk?t=1785238884&s=ac824c7de1e37e1cea624ef679ffbee2"
             ]
         },
         {
@@ -81,20 +81,20 @@
             "fileSize": "27981568",
             "md5": "cced6ba680c660283f0c5396449cd58a",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/mediaviewer/mediaviewer/20260416.1/mediaviewer-20260416.1-universal-cced6ba680.apk?t=1783747284&s=d9c0ca707f11b4b4dabc4c4a45ed8da3",
-                "https://superota.d.miui.com/xms/com/miui/mediaviewer/mediaviewer/20260416.1/mediaviewer-20260416.1-universal-cced6ba680.apk?t=1783747284&s=d9c0ca707f11b4b4dabc4c4a45ed8da3"
+                "https://ultimateota.d.miui.com/xms/com/miui/mediaviewer/mediaviewer/20260416.1/mediaviewer-20260416.1-universal-cced6ba680.apk?t=1785238884&s=b4d4446080e6c925ccd7b897a2590d39",
+                "https://superota.d.miui.com/xms/com/miui/mediaviewer/mediaviewer/20260416.1/mediaviewer-20260416.1-universal-cced6ba680.apk?t=1785238884&s=b4d4446080e6c925ccd7b897a2590d39"
             ]
         },
         {
             "name": "用户反馈-OS3-国内",
             "packageName": "com.miui.bugreport",
-            "versionCode": "17003005",
-            "fileName": "bugreport-cn-17.3.0.5_cn_20260602-universal-71df3f1457.apk",
-            "fileSize": "16186823",
-            "md5": "71df3f14571b959d2c76b969d84eec05",
+            "versionCode": "17004001",
+            "fileName": "bugreport-cn-17.4.0.1_cn_20260709-universal-3efef900aa.apk",
+            "fileSize": "16190919",
+            "md5": "3efef900aaa23f90a1236d4c41ea8ec3",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/bugreport/bugreport-cn/17.3.0.5_cn_20260602/bugreport-cn-17.3.0.5_cn_20260602-universal-71df3f1457.apk?t=1783747284&s=8210e4c4a46cf7ce81cb5a31fe6c9767",
-                "https://superota.d.miui.com/xms/com/miui/bugreport/bugreport-cn/17.3.0.5_cn_20260602/bugreport-cn-17.3.0.5_cn_20260602-universal-71df3f1457.apk?t=1783747284&s=8210e4c4a46cf7ce81cb5a31fe6c9767"
+                "https://ultimateota.d.miui.com/xms/com/miui/bugreport/bugreport-cn/17.4.0.1_cn_20260709/bugreport-cn-17.4.0.1_cn_20260709-universal-3efef900aa.apk?t=1785238884&s=c4484051ebfb435ea33cb41d53edf49f",
+                "https://superota.d.miui.com/xms/com/miui/bugreport/bugreport-cn/17.4.0.1_cn_20260709/bugreport-cn-17.4.0.1_cn_20260709-universal-3efef900aa.apk?t=1785238884&s=c4484051ebfb435ea33cb41d53edf49f"
             ]
         },
         {
@@ -105,44 +105,56 @@
             "fileSize": "7962806",
             "md5": "4357ca0a38614005408e92fe6d956eb9",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/nextpay/nextpay/26.01.30.1/nextpay-26.01.30.1-universal-4357ca0a38.apk?t=1783747284&s=006696591bca2c4de004c1adbadb14b0",
-                "https://superota.d.miui.com/xms/com/miui/nextpay/nextpay/26.01.30.1/nextpay-26.01.30.1-universal-4357ca0a38.apk?t=1783747284&s=006696591bca2c4de004c1adbadb14b0"
+                "https://ultimateota.d.miui.com/xms/com/miui/nextpay/nextpay/26.01.30.1/nextpay-26.01.30.1-universal-4357ca0a38.apk?t=1785238884&s=fe1aa7fd200853f3b97776f32520b299",
+                "https://superota.d.miui.com/xms/com/miui/nextpay/nextpay/26.01.30.1/nextpay-26.01.30.1-universal-4357ca0a38.apk?t=1785238884&s=fe1aa7fd200853f3b97776f32520b299"
+            ]
+        },
+        {
+            "name": "小米智能卡-OS3",
+            "packageName": "com.miui.tsmclient",
+            "versionCode": "1950",
+            "fileName": "tsmclient-26.06.25.1.f-universal-ca902a5a20.apk",
+            "fileSize": "19354158",
+            "md5": "ca902a5a201a87e7d5768512f738e6ce",
+            "downloadUrls": [
+                "https://ultimateota.d.miui.com/xms/com/miui/tsmclient/tsmclient/26.06.25.1.f/tsmclient-26.06.25.1.f-universal-ca902a5a20.apk?t=1785238884&s=a7b908095736a671398ab7434450d893",
+                "https://superota.d.miui.com/xms/com/miui/tsmclient/tsmclient/26.06.25.1.f/tsmclient-26.06.25.1.f-universal-ca902a5a20.apk?t=1785238884&s=a7b908095736a671398ab7434450d893"
             ]
         },
         {
             "name": "日历-国内-Fold-OS3",
             "packageName": "com.android.calendar",
-            "versionCode": "171008160",
-            "fileName": "calendar-17.10.8.16-universal-e58bfeb16c.apk",
+            "versionCode": "171008190",
+            "fileName": "calendar-17.10.8.19-universal-a5504121a8.apk",
             "fileSize": "22950004",
-            "md5": "e58bfeb16cedc68e4bf6438a6011b85c",
+            "md5": "a5504121a8082d32114d178635c443be",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/calendar/calendar/17.10.8.16/calendar-17.10.8.16-universal-e58bfeb16c.apk?t=1783747284&s=665dff02a67283005a529c835a9aa00b",
-                "https://superota.d.miui.com/xms/com/android/calendar/calendar/17.10.8.16/calendar-17.10.8.16-universal-e58bfeb16c.apk?t=1783747284&s=665dff02a67283005a529c835a9aa00b"
+                "https://ultimateota.d.miui.com/xms/com/android/calendar/calendar/17.10.8.19/calendar-17.10.8.19-universal-a5504121a8.apk?t=1785238884&s=061d9c4e4942575c4f81c25b15a12b4c",
+                "https://superota.d.miui.com/xms/com/android/calendar/calendar/17.10.8.19/calendar-17.10.8.19-universal-a5504121a8.apk?t=1785238884&s=061d9c4e4942575c4f81c25b15a12b4c"
             ]
         },
         {
             "name": "CleanMaster-CN-OS3",
             "packageName": "com.miui.cleanmaster",
-            "versionCode": "101036",
-            "fileName": "cleanmaster-1.0.3.6_260602_cn_release-universal-7cf53b6ff7.apk",
-            "fileSize": "14783111",
-            "md5": "7cf53b6ff70059ac3c7811530a595e2d",
+            "versionCode": "101038",
+            "fileName": "cleanmaster-1.0.3.8_260629_cn_release-universal-2d1f13b229.apk",
+            "fileSize": "14852743",
+            "md5": "2d1f13b2297d8e00d3d39291066eb253",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/cleanmaster/cleanmaster/1.0.3.6_260602_cn_release/cleanmaster-1.0.3.6_260602_cn_release-universal-7cf53b6ff7.apk?t=1783747284&s=647b214989bfe3a9a4ec8f888f560f04",
-                "https://superota.d.miui.com/xms/com/miui/cleanmaster/cleanmaster/1.0.3.6_260602_cn_release/cleanmaster-1.0.3.6_260602_cn_release-universal-7cf53b6ff7.apk?t=1783747284&s=647b214989bfe3a9a4ec8f888f560f04"
+                "https://ultimateota.d.miui.com/xms/com/miui/cleanmaster/cleanmaster/1.0.3.8_260629_cn_release/cleanmaster-1.0.3.8_260629_cn_release-universal-2d1f13b229.apk?t=1785238884&s=8d0acfe6cef4eb6bc19d892a1935c4c9",
+                "https://superota.d.miui.com/xms/com/miui/cleanmaster/cleanmaster/1.0.3.8_260629_cn_release/cleanmaster-1.0.3.8_260629_cn_release-universal-2d1f13b229.apk?t=1785238884&s=8d0acfe6cef4eb6bc19d892a1935c4c9"
             ]
         },
         {
             "name": "通讯录与拨号-OS3-CN",
             "packageName": "com.android.contacts",
-            "versionCode": "201048",
-            "fileName": "contacts-17.20.10.48-cn-universal-2ab8500914.apk",
-            "fileSize": "22192282",
-            "md5": "2ab8500914362ee0e66edc9a0d2788cf",
+            "versionCode": "201050",
+            "fileName": "contacts-17.20.10.50-cn-universal-de724aec2b.apk",
+            "fileSize": "22212762",
+            "md5": "de724aec2ba3f83b089ffb7989d11e88",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/contacts/contacts/17.20.10.48-cn/contacts-17.20.10.48-cn-universal-2ab8500914.apk?t=1783747284&s=9b4539228b91c69ae14a0af71b9041b9",
-                "https://superota.d.miui.com/xms/com/android/contacts/contacts/17.20.10.48-cn/contacts-17.20.10.48-cn-universal-2ab8500914.apk?t=1783747284&s=9b4539228b91c69ae14a0af71b9041b9"
+                "https://ultimateota.d.miui.com/xms/com/android/contacts/contacts/17.20.10.50-cn/contacts-17.20.10.50-cn-universal-de724aec2b.apk?t=1785238884&s=1e35a4f40818902292209abe14bc071c",
+                "https://superota.d.miui.com/xms/com/android/contacts/contacts/17.20.10.50-cn/contacts-17.20.10.50-cn-universal-de724aec2b.apk?t=1785238884&s=1e35a4f40818902292209abe14bc071c"
             ]
         },
         {
@@ -153,140 +165,140 @@
             "fileSize": "10594134",
             "md5": "83c879d4760ce4df720aded19fd27ce0",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/contentextension/contentextension/4.2.1-20260529-OS3/contentextension-4.2.1-20260529-OS3-universal-83c879d476.apk?t=1783747284&s=5a4bc3c3e1ac6ea85e5b6c78a1498b54",
-                "https://superota.d.miui.com/xms/com/miui/contentextension/contentextension/4.2.1-20260529-OS3/contentextension-4.2.1-20260529-OS3-universal-83c879d476.apk?t=1783747284&s=5a4bc3c3e1ac6ea85e5b6c78a1498b54"
+                "https://ultimateota.d.miui.com/xms/com/miui/contentextension/contentextension/4.2.1-20260529-OS3/contentextension-4.2.1-20260529-OS3-universal-83c879d476.apk?t=1785238884&s=0708bcfd92dc6e60d03a2cbf92d1a860",
+                "https://superota.d.miui.com/xms/com/miui/contentextension/contentextension/4.2.1-20260529-OS3/contentextension-4.2.1-20260529-OS3-universal-83c879d476.apk?t=1785238884&s=0708bcfd92dc6e60d03a2cbf92d1a860"
             ]
         },
         {
             "name": "安全守护服务-折叠屏-OS3",
             "packageName": "com.miui.greenguard",
-            "versionCode": "1320260607",
-            "fileName": "greenguard-3.13.06.06.00-fold-universal-ef2ab0da74.apk",
-            "fileSize": "43258598",
-            "md5": "ef2ab0da7470b1c51d07e543d436fecf",
+            "versionCode": "1320260706",
+            "fileName": "greenguard-3.13.07.05.00-fold-universal-dc5792c441.apk",
+            "fileSize": "43262694",
+            "md5": "dc5792c441688a3dc7ebe0a405b3dfd4",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/greenguard/greenguard/3.13.06.06.00-fold/greenguard-3.13.06.06.00-fold-universal-ef2ab0da74.apk?t=1783747284&s=0ddcbc447fcea66235a1bc7369aec720",
-                "https://superota.d.miui.com/xms/com/miui/greenguard/greenguard/3.13.06.06.00-fold/greenguard-3.13.06.06.00-fold-universal-ef2ab0da74.apk?t=1783747284&s=0ddcbc447fcea66235a1bc7369aec720"
+                "https://ultimateota.d.miui.com/xms/com/miui/greenguard/greenguard/3.13.07.05.00-fold/greenguard-3.13.07.05.00-fold-universal-dc5792c441.apk?t=1785238884&s=20aa4c0d2c2ecf6d181e8ff5eeab5e57",
+                "https://superota.d.miui.com/xms/com/miui/greenguard/greenguard/3.13.07.05.00-fold/greenguard-3.13.07.05.00-fold-universal-dc5792c441.apk?t=1785238884&s=20aa4c0d2c2ecf6d181e8ff5eeab5e57"
             ]
         },
         {
             "name": "MIUI安全组件OS2",
             "packageName": "com.miui.guardprovider",
-            "versionCode": "304",
-            "fileName": "guardprovider-3.0.4-20260608.0-universal-d6bba1478c.apk",
-            "fileSize": "15926671",
-            "md5": "d6bba1478c23813b26b942b4f0e8b18b",
+            "versionCode": "307",
+            "fileName": "guardprovider-3.0.7-20260708.0-universal-d093f10619.apk",
+            "fileSize": "15877999",
+            "md5": "d093f10619b133a127a2a7f2b00fb03c",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/guardprovider/guardprovider/3.0.4-20260608.0/guardprovider-3.0.4-20260608.0-universal-d6bba1478c.apk?t=1783747284&s=65f5eb158cfead138ccb2fec03c75a8e",
-                "https://superota.d.miui.com/xms/com/miui/guardprovider/guardprovider/3.0.4-20260608.0/guardprovider-3.0.4-20260608.0-universal-d6bba1478c.apk?t=1783747284&s=65f5eb158cfead138ccb2fec03c75a8e"
+                "https://ultimateota.d.miui.com/xms/com/miui/guardprovider/guardprovider/3.0.7-20260708.0/guardprovider-3.0.7-20260708.0-universal-d093f10619.apk?t=1785238884&s=01109ad70704c0d102abaee3b2064aaa",
+                "https://superota.d.miui.com/xms/com/miui/guardprovider/guardprovider/3.0.7-20260708.0/guardprovider-3.0.7-20260708.0-universal-d093f10619.apk?t=1785238884&s=01109ad70704c0d102abaee3b2064aaa"
             ]
         },
         {
             "name": "短信-国内-手机-OS3",
             "packageName": "com.android.mms",
-            "versionCode": "170003002",
-            "fileName": "mms-17.0.3.2-universal-0b47a48669.apk",
-            "fileSize": "24456649",
-            "md5": "0b47a4866955f206aaa7f2a8c8fbe458",
+            "versionCode": "170003006",
+            "fileName": "mms-17.0.3.6-universal-319e301c36.apk",
+            "fileSize": "24460745",
+            "md5": "319e301c36234ee66da0b5d5812ff1c7",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/mms/mms/17.0.3.2/mms-17.0.3.2-universal-0b47a48669.apk?t=1783747284&s=402fb36d0aad4b4904f5cb40e9cfc7dd",
-                "https://superota.d.miui.com/xms/com/android/mms/mms/17.0.3.2/mms-17.0.3.2-universal-0b47a48669.apk?t=1783747284&s=402fb36d0aad4b4904f5cb40e9cfc7dd"
+                "https://ultimateota.d.miui.com/xms/com/android/mms/mms/17.0.3.6/mms-17.0.3.6-universal-319e301c36.apk?t=1785238884&s=309d9b7c98f6ee4ee528e8287d8b0cca",
+                "https://superota.d.miui.com/xms/com/android/mms/mms/17.0.3.6/mms-17.0.3.6-universal-319e301c36.apk?t=1785238884&s=309d9b7c98f6ee4ee528e8287d8b0cca"
             ]
         },
         {
             "name": "OS3-笔记-国内",
             "packageName": "com.miui.notes",
-            "versionCode": "2425",
-            "fileName": "notes-202606121355-phone-cn-universal-d5389ca285.apk",
-            "fileSize": "83031328",
-            "md5": "d5389ca28549a57ea372cfef36bf2f04",
+            "versionCode": "2431",
+            "fileName": "notes-202607131112-phone-cn-universal-2c2babbc1c.apk",
+            "fileSize": "83453216",
+            "md5": "2c2babbc1c05720af19cc9d1a6fde73a",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/notes/notes/202606121355-phone-cn/notes-202606121355-phone-cn-universal-d5389ca285.apk?t=1783747284&s=e37d10542df0362c34fc53b3b99fca57",
-                "https://superota.d.miui.com/xms/com/miui/notes/notes/202606121355-phone-cn/notes-202606121355-phone-cn-universal-d5389ca285.apk?t=1783747284&s=e37d10542df0362c34fc53b3b99fca57"
+                "https://ultimateota.d.miui.com/xms/com/miui/notes/notes/202607131112-phone-cn/notes-202607131112-phone-cn-universal-2c2babbc1c.apk?t=1785238884&s=bc79ddb03e34754ff4f6d55b21e5d58a",
+                "https://superota.d.miui.com/xms/com/miui/notes/notes/202607131112-phone-cn/notes-202607131112-phone-cn-universal-2c2babbc1c.apk?t=1785238884&s=bc79ddb03e34754ff4f6d55b21e5d58a"
             ]
         },
         {
             "name": "智能助理-手机-国内-OS3",
             "packageName": "com.miui.personalassistant",
-            "versionCode": "253101",
-            "fileName": "personalassistant-25.31.01-06101936-universal-0e37285c31.apk",
-            "fileSize": "26903493",
-            "md5": "0e37285c310a30520ea201c4073f02e1",
+            "versionCode": "253106",
+            "fileName": "personalassistant-25.31.06-07091932-universal-239b0158f7.apk",
+            "fileSize": "27202617",
+            "md5": "239b0158f77b6d13285ae7284ef6ff25",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/personalassistant/personalassistant/25.31.01-06101936/personalassistant-25.31.01-06101936-universal-0e37285c31.apk?t=1783747284&s=e281d2bb3a22662561e01daabc01d75b",
-                "https://superota.d.miui.com/xms/com/miui/personalassistant/personalassistant/25.31.01-06101936/personalassistant-25.31.01-06101936-universal-0e37285c31.apk?t=1783747284&s=e281d2bb3a22662561e01daabc01d75b"
+                "https://ultimateota.d.miui.com/xms/com/miui/personalassistant/personalassistant/25.31.06-07091932/personalassistant-25.31.06-07091932-universal-239b0158f7.apk?t=1785238884&s=7fa0dc423fcd9555534e4a3e0e900df3",
+                "https://superota.d.miui.com/xms/com/miui/personalassistant/personalassistant/25.31.06-07091932/personalassistant-25.31.06-07091932-universal-239b0158f7.apk?t=1785238884&s=7fa0dc423fcd9555534e4a3e0e900df3"
             ]
         },
         {
             "name": "截屏_HyperOS3.0_Beta",
             "packageName": "com.miui.screenshot",
-            "versionCode": "10602034",
-            "fileName": "screenshot-1.6.2.34-editor-universal-937b6d2046.apk",
-            "fileSize": "9631507",
-            "md5": "937b6d2046c505a46594d094114a9130",
+            "versionCode": "10602036",
+            "fileName": "screenshot-1.6.2.36-editor-universal-be6b7e4978.apk",
+            "fileSize": "9440120",
+            "md5": "be6b7e4978ba52848daedc3bf55a4a70",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/screenshot/screenshot/1.6.2.34-editor/screenshot-1.6.2.34-editor-universal-937b6d2046.apk?t=1783747284&s=59bddbb50cbe9ddd0a2623b3ee91c564",
-                "https://superota.d.miui.com/xms/com/miui/screenshot/screenshot/1.6.2.34-editor/screenshot-1.6.2.34-editor-universal-937b6d2046.apk?t=1783747284&s=59bddbb50cbe9ddd0a2623b3ee91c564"
+                "https://ultimateota.d.miui.com/xms/com/miui/screenshot/screenshot/1.6.2.36-editor/screenshot-1.6.2.36-editor-universal-be6b7e4978.apk?t=1785238884&s=dd1e296fb98084c1b37a22239457ef21",
+                "https://superota.d.miui.com/xms/com/miui/screenshot/screenshot/1.6.2.36-editor/screenshot-1.6.2.36-editor-universal-be6b7e4978.apk?t=1785238884&s=dd1e296fb98084c1b37a22239457ef21"
             ]
         },
         {
             "name": "手机管家-CN-OS3",
             "packageName": "com.miui.securitycenter",
-            "versionCode": "40001268",
-            "fileName": "securitycenter-12.6.8_260609_cn_phone_stable-universal-8529062db7.apk",
-            "fileSize": "80986057",
-            "md5": "8529062db7bd47e72827a84880fc04f8",
+            "versionCode": "40001275",
+            "fileName": "securitycenter-12.7.5_260709_cn_phone_stable-universal-0fa624fc4a.apk",
+            "fileSize": "83625939",
+            "md5": "0fa624fc4a60738501e7a22d0dc64a89",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/securitycenter/securitycenter/12.6.8_260609_cn_phone_stable/securitycenter-12.6.8_260609_cn_phone_stable-universal-8529062db7.apk?t=1783747284&s=2e8e9be4338871617abc35a5877c5fff",
-                "https://superota.d.miui.com/xms/com/miui/securitycenter/securitycenter/12.6.8_260609_cn_phone_stable/securitycenter-12.6.8_260609_cn_phone_stable-universal-8529062db7.apk?t=1783747284&s=2e8e9be4338871617abc35a5877c5fff"
+                "https://ultimateota.d.miui.com/xms/com/miui/securitycenter/securitycenter/12.7.5_260709_cn_phone_stable/securitycenter-12.7.5_260709_cn_phone_stable-universal-0fa624fc4a.apk?t=1785238884&s=87938cfd70db6443673c9c0fa953db0c",
+                "https://superota.d.miui.com/xms/com/miui/securitycenter/securitycenter/12.7.5_260709_cn_phone_stable/securitycenter-12.7.5_260709_cn_phone_stable-universal-0fa624fc4a.apk?t=1785238884&s=87938cfd70db6443673c9c0fa953db0c"
             ]
         },
         {
             "name": "主题壁纸-国内-OS3-Fold（保密）",
             "packageName": "com.android.thememanager",
-            "versionCode": "80520",
-            "fileName": "thememanager-80520-20260604-universal-48967f8e16.apk",
-            "fileSize": "47527538",
-            "md5": "48967f8e16bbf766eac62cfc684784dc",
+            "versionCode": "80570",
+            "fileName": "thememanager-80570-20260709-universal-3c77738f07.apk",
+            "fileSize": "49686901",
+            "md5": "3c77738f0744649ef611f3c00f0f9b66",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/thememanager/thememanager/80520-20260604/thememanager-80520-20260604-universal-48967f8e16.apk?t=1783747284&s=0b749e975c12ecc43e1983232d7f83fb",
-                "https://superota.d.miui.com/xms/com/android/thememanager/thememanager/80520-20260604/thememanager-80520-20260604-universal-48967f8e16.apk?t=1783747284&s=0b749e975c12ecc43e1983232d7f83fb"
+                "https://ultimateota.d.miui.com/xms/com/android/thememanager/thememanager/80570-20260709/thememanager-80570-20260709-universal-3c77738f07.apk?t=1785238884&s=7593e96002fa48bf5406a9555c964d1d",
+                "https://superota.d.miui.com/xms/com/android/thememanager/thememanager/80570-20260709/thememanager-80570-20260709-universal-3c77738f07.apk?t=1785238884&s=7593e96002fa48bf5406a9555c964d1d"
             ]
         },
         {
             "name": "天气-国内-FOLD-OS3",
             "packageName": "com.miui.weather2",
-            "versionCode": "170003040",
-            "fileName": "weather2-17.0.3.40-20260427-HD-universal-56e370ffd4.apk",
-            "fileSize": "58670124",
-            "md5": "56e370ffd407cdf028d40c08ad394134",
+            "versionCode": "170003042",
+            "fileName": "weather2-17.0.3.42-20260611-HD-universal-5ba04b8a5f.apk",
+            "fileSize": "59478054",
+            "md5": "5ba04b8a5f17888c765510292accee2f",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/weather2/weather2/17.0.3.40-20260427-HD/weather2-17.0.3.40-20260427-HD-universal-56e370ffd4.apk?t=1783747284&s=92e48b55b1e202979ceb3a44bdaaff80",
-                "https://superota.d.miui.com/xms/com/miui/weather2/weather2/17.0.3.40-20260427-HD/weather2-17.0.3.40-20260427-HD-universal-56e370ffd4.apk?t=1783747284&s=92e48b55b1e202979ceb3a44bdaaff80"
+                "https://ultimateota.d.miui.com/xms/com/miui/weather2/weather2/17.0.3.42-20260611-HD/weather2-17.0.3.42-20260611-HD-universal-5ba04b8a5f.apk?t=1785238884&s=586184751726a3334dc03fc7ae2f0e00",
+                "https://superota.d.miui.com/xms/com/miui/weather2/weather2/17.0.3.42-20260611-HD/weather2-17.0.3.42-20260611-HD-universal-5ba04b8a5f.apk?t=1785238884&s=586184751726a3334dc03fc7ae2f0e00"
             ]
         },
         {
             "name": "OS3-文件管理器-国内",
             "packageName": "com.android.fileexplorer",
-            "versionCode": "8230",
-            "fileName": "fileexplorer-8.2.3.0-202606031119-cn-os3-universal-cdae9fde5e.apk",
-            "fileSize": "21683988",
-            "md5": "cdae9fde5e560521e507a9f219822ca8",
+            "versionCode": "8232",
+            "fileName": "fileexplorer-8.2.3.2-202607061442-cn-os3-universal-5c5436fc0d.apk",
+            "fileSize": "21675796",
+            "md5": "5c5436fc0d86382e64702bd1a5e6a955",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/fileexplorer/fileexplorer/8.2.3.0-202606031119-cn-os3/fileexplorer-8.2.3.0-202606031119-cn-os3-universal-cdae9fde5e.apk?t=1783747284&s=bbd8879cdf6ea84259acb0335666968c",
-                "https://superota.d.miui.com/xms/com/android/fileexplorer/fileexplorer/8.2.3.0-202606031119-cn-os3/fileexplorer-8.2.3.0-202606031119-cn-os3-universal-cdae9fde5e.apk?t=1783747284&s=bbd8879cdf6ea84259acb0335666968c"
+                "https://ultimateota.d.miui.com/xms/com/android/fileexplorer/fileexplorer/8.2.3.2-202607061442-cn-os3/fileexplorer-8.2.3.2-202607061442-cn-os3-universal-5c5436fc0d.apk?t=1785238884&s=df7d02d5aa78abd5a2c78d47dba420d1",
+                "https://superota.d.miui.com/xms/com/android/fileexplorer/fileexplorer/8.2.3.2-202607061442-cn-os3/fileexplorer-8.2.3.2-202607061442-cn-os3-universal-5c5436fc0d.apk?t=1785238884&s=df7d02d5aa78abd5a2c78d47dba420d1"
             ]
         },
         {
             "name": "计算器OS3-国内",
             "packageName": "com.miui.calculator",
-            "versionCode": "316000032",
-            "fileName": "calculator-16.3.2-20260604-universal-525e26a4c4.apk",
-            "fileSize": "9615603",
-            "md5": "525e26a4c403d28e577420c709e9d9ab",
+            "versionCode": "316000034",
+            "fileName": "calculator-16.3.4-20260710-universal-5aa8db2c05.apk",
+            "fileSize": "10013113",
+            "md5": "5aa8db2c05a0c95933ff179e64fa4eed",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/calculator/calculator/16.3.2-20260604/calculator-16.3.2-20260604-universal-525e26a4c4.apk?t=1783747284&s=e052f77ad5a7fa58509e57afd978c653",
-                "https://superota.d.miui.com/xms/com/miui/calculator/calculator/16.3.2-20260604/calculator-16.3.2-20260604-universal-525e26a4c4.apk?t=1783747284&s=e052f77ad5a7fa58509e57afd978c653"
+                "https://ultimateota.d.miui.com/xms/com/miui/calculator/calculator/16.3.4-20260710/calculator-16.3.4-20260710-universal-5aa8db2c05.apk?t=1785238884&s=a4b0d29fe4e5fda5775eb136604d77a0",
+                "https://superota.d.miui.com/xms/com/miui/calculator/calculator/16.3.4-20260710/calculator-16.3.4-20260710-universal-5aa8db2c05.apk?t=1785238884&s=a4b0d29fe4e5fda5775eb136604d77a0"
             ]
         },
         {
@@ -297,44 +309,44 @@
             "fileSize": "5002851",
             "md5": "2d35bcddfcfd94909039fa7d8d81d099",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/compass/compass/16.2.7.1.2026012310/compass-16.2.7.1.2026012310-universal-2d35bcddfc.apk?t=1783747284&s=a19616780d0679f62728c78d2f3c07de",
-                "https://superota.d.miui.com/xms/com/miui/compass/compass/16.2.7.1.2026012310/compass-16.2.7.1.2026012310-universal-2d35bcddfc.apk?t=1783747284&s=a19616780d0679f62728c78d2f3c07de"
+                "https://ultimateota.d.miui.com/xms/com/miui/compass/compass/16.2.7.1.2026012310/compass-16.2.7.1.2026012310-universal-2d35bcddfc.apk?t=1785238884&s=4747e4801cd9e95c13fa1bd11d43a78e",
+                "https://superota.d.miui.com/xms/com/miui/compass/compass/16.2.7.1.2026012310/compass-16.2.7.1.2026012310-universal-2d35bcddfc.apk?t=1785238884&s=4747e4801cd9e95c13fa1bd11d43a78e"
             ]
         },
         {
             "name": "时钟-OS3",
             "packageName": "com.android.deskclock",
-            "versionCode": "1305006600",
-            "fileName": "deskclock-17.66.0-26060414-universal-7face106e4.apk",
-            "fileSize": "17869747",
-            "md5": "7face106e44d0ada61f963acb4404dda",
+            "versionCode": "1305007100",
+            "fileName": "deskclock-17.71.0-26070316-universal-711eb9906f.apk",
+            "fileSize": "17873843",
+            "md5": "711eb9906f78c5b839948d4f1d8ee991",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/android/deskclock/deskclock/17.66.0-26060414/deskclock-17.66.0-26060414-universal-7face106e4.apk?t=1783747284&s=38cf2712827b0ce4d3d8663a623f7f8b",
-                "https://superota.d.miui.com/xms/com/android/deskclock/deskclock/17.66.0-26060414/deskclock-17.66.0-26060414-universal-7face106e4.apk?t=1783747284&s=38cf2712827b0ce4d3d8663a623f7f8b"
+                "https://ultimateota.d.miui.com/xms/com/android/deskclock/deskclock/17.71.0-26070316/deskclock-17.71.0-26070316-universal-711eb9906f.apk?t=1785238884&s=f406a26b128eb4f9da5e90b19fba9418",
+                "https://superota.d.miui.com/xms/com/android/deskclock/deskclock/17.71.0-26070316/deskclock-17.71.0-26070316-universal-711eb9906f.apk?t=1785238884&s=f406a26b128eb4f9da5e90b19fba9418"
             ]
         },
         {
             "name": "小米设置OS3-phone",
             "packageName": "com.xiaomi.misettings",
-            "versionCode": "260603300",
-            "fileName": "misettings-16.3.260603.00-universal-fb5922fa1e.apk",
+            "versionCode": "260618300",
+            "fileName": "misettings-16.3.260618.00-universal-681713957f.apk",
             "fileSize": "27872410",
-            "md5": "fb5922fa1e91e50781f074b1ccc1bad7",
+            "md5": "681713957f6e8fd4a462479fb7e9b38a",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/xiaomi/misettings/misettings/16.3.260603.00/misettings-16.3.260603.00-universal-fb5922fa1e.apk?t=1783747284&s=8b8a87ee7b929114b1dcc4ea63efb53e",
-                "https://superota.d.miui.com/xms/com/xiaomi/misettings/misettings/16.3.260603.00/misettings-16.3.260603.00-universal-fb5922fa1e.apk?t=1783747284&s=8b8a87ee7b929114b1dcc4ea63efb53e"
+                "https://ultimateota.d.miui.com/xms/com/xiaomi/misettings/misettings/16.3.260618.00/misettings-16.3.260618.00-universal-681713957f.apk?t=1785238884&s=fb7a9fe6f7fe9a77f4aaebeafca887b9",
+                "https://superota.d.miui.com/xms/com/xiaomi/misettings/misettings/16.3.260618.00/misettings-16.3.260618.00-universal-681713957f.apk?t=1785238884&s=fb7a9fe6f7fe9a77f4aaebeafca887b9"
             ]
         },
         {
             "name": "屏幕录制-os3-lite",
             "packageName": "com.miui.screenrecorder",
-            "versionCode": "41503021",
-            "fileName": "screenrecorder-4.15.3.2.1.2026060320-universal-a255cce888.apk",
-            "fileSize": "4665806",
-            "md5": "a255cce8880e9ba455473005e29cabce",
+            "versionCode": "41503031",
+            "fileName": "screenrecorder-4.15.3.3.1.20260629-universal-3b47a1f725.apk",
+            "fileSize": "4669902",
+            "md5": "3b47a1f725d78f99c8be31de5a206564",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/screenrecorder/screenrecorder/4.15.3.2.1.2026060320/screenrecorder-4.15.3.2.1.2026060320-universal-a255cce888.apk?t=1783747284&s=65f2d8abbaba486369988007cfe2c772",
-                "https://superota.d.miui.com/xms/com/miui/screenrecorder/screenrecorder/4.15.3.2.1.2026060320/screenrecorder-4.15.3.2.1.2026060320-universal-a255cce888.apk?t=1783747284&s=65f2d8abbaba486369988007cfe2c772"
+                "https://ultimateota.d.miui.com/xms/com/miui/screenrecorder/screenrecorder/4.15.3.3.1.20260629/screenrecorder-4.15.3.3.1.20260629-universal-3b47a1f725.apk?t=1785238884&s=a2dc37731cda529f194074616710091d",
+                "https://superota.d.miui.com/xms/com/miui/screenrecorder/screenrecorder/4.15.3.3.1.20260629/screenrecorder-4.15.3.3.1.20260629-universal-3b47a1f725.apk?t=1785238884&s=a2dc37731cda529f194074616710091d"
             ]
         },
         {
@@ -345,8 +357,8 @@
             "fileSize": "4962416",
             "md5": "e440e220bb4bae5d699c17af0d2f7fcb",
             "downloadUrls": [
-                "https://ultimateota.d.miui.com/xms/com/miui/touchassistant/touchassistant/16.1.0.0.1.20260519/touchassistant-16.1.0.0.1.20260519-universal-e440e220bb.apk?t=1783747284&s=4d50baffc1afb487381cd79a31def0af",
-                "https://superota.d.miui.com/xms/com/miui/touchassistant/touchassistant/16.1.0.0.1.20260519/touchassistant-16.1.0.0.1.20260519-universal-e440e220bb.apk?t=1783747284&s=4d50baffc1afb487381cd79a31def0af"
+                "https://ultimateota.d.miui.com/xms/com/miui/touchassistant/touchassistant/16.1.0.0.1.20260519/touchassistant-16.1.0.0.1.20260519-universal-e440e220bb.apk?t=1785238884&s=eec674efff742b4a5d8ede1d1f953e1a",
+                "https://superota.d.miui.com/xms/com/miui/touchassistant/touchassistant/16.1.0.0.1.20260519/touchassistant-16.1.0.0.1.20260519-universal-e440e220bb.apk?t=1785238884&s=eec674efff742b4a5d8ede1d1f953e1a"
             ]
         }
     ]

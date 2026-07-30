@@ -21,6 +21,13 @@ else
   fi
 fi
 
+for _bin_dir in \
+  /data/adb/modules/Xiaomi-SOTA-Module-Bin/system/bin \
+  /data/adb/modules_update/Xiaomi-SOTA-Module-Bin/system/bin; do
+  [ -d "$_bin_dir" ] && export PATH="$_bin_dir:$PATH"
+done
+unset _bin_dir
+
 rm -rf /data/system/package_cache
 
 TMPDIR="/data/local/tmp"
